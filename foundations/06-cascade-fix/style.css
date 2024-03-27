@@ -7,10 +7,12 @@ body {
   font-weight: 800;
 }
 
-.para {
+.para,
+.small-para {
   color: hsl(0, 0%, 0%);
   font-weight: 800;
 }
+
 
 .para {
   font-size: 22px;
@@ -28,14 +30,14 @@ button.confirm {
   font-size: 20px;
 }
 
-.text.child {
-  color: rgb(0, 0, 0);
-  font-weight: 800;
-  font-size: 14px;
-}
-
 div.text {
   color: rgb(0, 0, 0);
   font-size: 22px;
   font-weight: 100;
+}
+
+div.child {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  font-size: 14px;
 }
